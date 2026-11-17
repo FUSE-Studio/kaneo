@@ -1,5 +1,5 @@
 import { Dialog as DialogPrimitive } from "@base-ui/react/dialog";
-import { Search, X } from "lucide-react";
+import { BookOpen, ExternalLink, Search, X } from "lucide-react";
 import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
@@ -16,6 +16,7 @@ import { ShortcutRow } from "./shortcut-row";
 import { useShortcutsPanelStore } from "./shortcuts-panel-store";
 
 const SHORTCUT_IDS = Object.keys(SHORTCUTS) as ShortcutId[];
+const DOCS_URL = "https://kaneo.app/docs";
 
 export function ShortcutsPanel() {
   const { t } = useTranslation();
@@ -67,7 +68,7 @@ export function ShortcutsPanel() {
         >
           <div className="flex h-13 shrink-0 items-center justify-between ps-4 pe-2">
             <DialogPrimitive.Title className="font-semibold text-sm">
-              {t("navigation:shortcuts.title")}
+              {t("navigation:help.title")}
             </DialogPrimitive.Title>
             <DialogPrimitive.Close
               render={
@@ -81,12 +82,36 @@ export function ShortcutsPanel() {
               <X />
             </DialogPrimitive.Close>
           </div>
+          <section className="shrink-0 px-4 pb-3">
+            <h3 className="pb-1 font-medium text-muted-foreground text-xs">
+              {t("navigation:help.userManual")}
+            </h3>
+            <a
+              href={DOCS_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="-mx-2 flex h-8 items-center gap-2 rounded-md px-2 text-[13px] outline-none hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring"
+            >
+              <BookOpen
+                aria-hidden="true"
+                className="size-3.5 shrink-0 text-muted-foreground"
+              />
+              <span className="flex-1">{t("navigation:help.openDocs")}</span>
+              <ExternalLink
+                aria-hidden="true"
+                className="size-3.5 shrink-0 text-muted-foreground"
+              />
+            </a>
+          </section>
           <div
             className={cn(
               "shrink-0 border-b border-transparent px-4 pb-3 transition-colors",
               scrolled && "border-border",
             )}
           >
+            <h3 className="pb-2 font-medium text-muted-foreground text-xs">
+              {t("navigation:shortcuts.title")}
+            </h3>
             <div className="flex h-[34px] items-center gap-2 rounded-lg border bg-foreground/3 px-2.5 focus-within:border-ring">
               <Search
                 aria-hidden="true"

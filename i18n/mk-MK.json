@@ -3038,6 +3038,11 @@
 			"then": "потоа",
 			"or": "или",
 			"thenEllipsis": "потоа…"
+		},
+		"help": {
+			"openDocs": "Read the documentation",
+			"title": "Help",
+			"userManual": "User manual"
 		}
 	},
 	"notifications": {

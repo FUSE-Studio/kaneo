@@ -2988,6 +2988,11 @@
 			"then": "然後",
 			"or": "或",
 			"thenEllipsis": "然後…"
+		},
+		"help": {
+			"openDocs": "Read the documentation",
+			"title": "Help",
+			"userManual": "User manual"
 		}
 	},
 	"notifications": {

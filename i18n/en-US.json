@@ -2922,6 +2922,11 @@
 		"projectSettings": {
 			"projectLabel": "Project"
 		},
+		"help": {
+			"title": "Help",
+			"userManual": "User manual",
+			"openDocs": "Read the documentation"
+		},
 		"shortcuts": {
 			"categories": {
 				"general": "General",

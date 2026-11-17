@@ -2988,6 +2988,11 @@
 			"then": "다음",
 			"or": "또는",
 			"thenEllipsis": "다음…"
+		},
+		"help": {
+			"openDocs": "Read the documentation",
+			"title": "Help",
+			"userManual": "User manual"
 		}
 	},
 	"notifications": {

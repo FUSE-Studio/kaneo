@@ -2988,6 +2988,11 @@
 			"then": "次に",
 			"or": "または",
 			"thenEllipsis": "次に…"
+		},
+		"help": {
+			"openDocs": "Read the documentation",
+			"title": "Help",
+			"userManual": "User manual"
 		}
 	},
 	"notifications": {

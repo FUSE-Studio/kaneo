@@ -3038,6 +3038,11 @@
 			"then": "dan",
 			"or": "of",
 			"thenEllipsis": "dan…"
+		},
+		"help": {
+			"openDocs": "Read the documentation",
+			"title": "Help",
+			"userManual": "User manual"
 		}
 	},
 	"notifications": {

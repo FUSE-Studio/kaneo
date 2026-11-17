@@ -774,6 +774,11 @@
 			"then": "potem",
 			"or": "lub",
 			"thenEllipsis": "potem…"
+		},
+		"help": {
+			"openDocs": "Read the documentation",
+			"title": "Help",
+			"userManual": "User manual"
 		}
 	},
 	"notifications": {

@@ -3088,6 +3088,11 @@
 			"then": "puis",
 			"or": "ou",
 			"thenEllipsis": "puis…"
+		},
+		"help": {
+			"openDocs": "Read the documentation",
+			"title": "Help",
+			"userManual": "User manual"
 		}
 	},
 	"notifications": {

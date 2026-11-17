@@ -3138,6 +3138,11 @@
 			"then": "потім",
 			"or": "або",
 			"thenEllipsis": "потім…"
+		},
+		"help": {
+			"openDocs": "Read the documentation",
+			"title": "Help",
+			"userManual": "User manual"
 		}
 	},
 	"notifications": {

@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { NavMain } from "@/components/nav-main";
 import { NavProjects } from "@/components/nav-projects";
 import { NavSecondary } from "@/components/nav-secondary";
+import { HelpButton } from "@/components/shortcuts/help-button";
 import { ThemeToggleDropdown } from "@/components/theme-toggle-dropdown";
 import { TrialCard } from "@/components/trial-card";
 import {
@@ -46,7 +47,10 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         <TrialCard />
         <div className="flex items-center justify-between">
           <VersionDisplay />
-          <ThemeToggleDropdown />
+          <div className="flex items-center gap-1">
+            <HelpButton />
+            <ThemeToggleDropdown />
+          </div>
         </div>
       </SidebarFooter>
     </Sidebar>

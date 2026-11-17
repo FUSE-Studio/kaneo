@@ -3038,6 +3038,11 @@
 			"then": "फिर",
 			"or": "या",
 			"thenEllipsis": "फिर…"
+		},
+		"help": {
+			"openDocs": "Read the documentation",
+			"title": "Help",
+			"userManual": "User manual"
 		}
 	},
 	"notifications": {

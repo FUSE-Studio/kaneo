@@ -3088,6 +3088,11 @@
 			"then": "poi",
 			"or": "o",
 			"thenEllipsis": "poi…"
+		},
+		"help": {
+			"openDocs": "Read the documentation",
+			"title": "Help",
+			"userManual": "User manual"
 		}
 	},
 	"notifications": {

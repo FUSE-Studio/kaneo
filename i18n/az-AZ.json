@@ -3038,6 +3038,11 @@
 			"then": "sonra",
 			"or": "və ya",
 			"thenEllipsis": "sonra…"
+		},
+		"help": {
+			"openDocs": "Read the documentation",
+			"title": "Help",
+			"userManual": "User manual"
 		}
 	},
 	"notifications": {

@@ -2988,6 +2988,11 @@
 			"then": "rồi",
 			"or": "hoặc",
 			"thenEllipsis": "rồi…"
+		},
+		"help": {
+			"openDocs": "Read the documentation",
+			"title": "Help",
+			"userManual": "User manual"
 		}
 	},
 	"notifications": {

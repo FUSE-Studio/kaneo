@@ -3146,6 +3146,11 @@
 			"then": "затем",
 			"or": "или",
 			"thenEllipsis": "затем…"
+		},
+		"help": {
+			"openDocs": "Read the documentation",
+			"title": "Help",
+			"userManual": "User manual"
 		}
 	},
 	"notifications": {

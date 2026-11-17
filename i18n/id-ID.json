@@ -2988,6 +2988,11 @@
 			"then": "lalu",
 			"or": "atau",
 			"thenEllipsis": "lalu…"
+		},
+		"help": {
+			"openDocs": "Read the documentation",
+			"title": "Help",
+			"userManual": "User manual"
 		}
 	},
 	"notifications": {
